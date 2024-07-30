@@ -1,3 +1,42 @@
 body {
   background-color: #2191F4 !important;
 }
+
+.card {
+  width: 20rem;
+}
+
+.card-theme {
+  border-radius: 15px !important;
+}
+
+.card-theme-header {
+  border-radius: 20px !important;
+  border-bottom: none !important;
+}
+
+.horizontal-rule {
+  display: grid !important;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.text-muted {
+  color: #808485 !important;
+}
+
+@media (max-width: 600px) {}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  .card {
+    width: 13rem !important;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+  .card {
+    width: 17rem !important;
+  }
+}
+
+@media (min-width: 1201px) {}

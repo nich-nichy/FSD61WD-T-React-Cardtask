@@ -1,11 +1,10 @@
-import { useState } from "react";
 import Card from "./components/Card";
 import "./App.css";
 
 function App() {
   const cardProp = [
     {
-      subscription: "Free",
+      subscription: "FREE",
       price: "0",
       users: "Single User",
       storage: "50GB Storage",
@@ -79,8 +78,8 @@ function App() {
   ];
   return (
     <>
-      <div className="container">
-        <div className="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div className="container vh-100 d-flex align-items-center justify-content-center">
+        <div className="row row-cols-1 row-cols-md-3 g-3">
           {cardProp.map((card, num) => {
             console.log(card);
             return (
